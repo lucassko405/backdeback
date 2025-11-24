@@ -9,3 +9,4 @@ server.listen();
 // para cargar los datos desde el seed.js ejecutar desde terminal: node seed.js
 // desde si npm run dev
 //  si no conecta mongo probar en powershell: mongod --dbpath "C:\data\db"
+//MONGO_URI=mongodb+srv://lucassko405_db_user:Tc5qOEwcSKXkmZEI@cluster0.n9lxpio.mongodb.net/miapp?retryWrites=true&w=majority&appName=Cluster0

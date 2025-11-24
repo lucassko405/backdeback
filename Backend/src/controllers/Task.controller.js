@@ -126,7 +126,7 @@ export class TaskController {
       const { estado } = req.body;
 
       await TaskService.update(id, { estado });
-      res.redirect('back');
+      res.redirect('/dashboard');
     } catch (error) {
       console.error('❌ Error al actualizar estado:', error.message);
       res.status(500).send('Error al actualizar estado');
